@@ -3,11 +3,11 @@ class Csctl < Formula
   homepage "https://cloudstate.io"
 
   if OS.linux?
-    url "https://downloads.lbcs.io/0.0.6/csctl_linux_amd64_0.0.6.tar.gz"
-    sha256 "e59d76088743b28f97074e3045b4f9ede7ca30549e8843a0f539e248c4e06878"
+    url "https://downloads.lbcs.io/0.0.7/csctl_linux_amd64_0.0.7.tar.gz"
+    sha256 "fd5e751fdef9be72ed93fdced3e31546cee8b1e7e023bb883595d71aec59ab3f"
   else
-    url "https://downloads.lbcs.io/0.0.6/csctl_darwin_amd64_0.0.6.tar.gz"
-    sha256 "98e53af8c058c650ce92e958a7594a5a3a413c517845e16a244d0bae97f08f6f"
+    url "https://downloads.lbcs.io/0.0.7/csctl_darwin_amd64_0.0.7.tar.gz"
+    sha256 "5a5d0328093cbf2a624d8f96ea92517f86d69f5d34aafd2d6a35606965031f18"
   end
 
   option "without-completion", "Do not install shell completion"
