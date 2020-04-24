@@ -1,6 +1,6 @@
 # Homebrew cloudstate
 
-This Homebrew tap provides a formula for [Cloudstate CLI][0], a command-line client for the Lightbend [Cloudstate][1] managed cloud service.
+This Homebrew tap provides a formula for [Cloudstate CLI][0], a command-line client for the Lightbend [Cloudstate][1] managed cloud service. 
 
 ## Requirements
 
