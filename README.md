@@ -44,10 +44,13 @@ Install the formula:
 ```sh
 $ brew install csctl
 ==> Installing csctl from lightbend/cloudstate
-==> Downloading https://downloads.lbcs.io/0.0.6/csctl_darwin_amd64_0.0.6.tar.gz
+==> Downloading https://downloads.lbcs.io/0.0.7/csctl_darwin_amd64_0.0.7.tar.gz
 ######################################################################## 100.0%
 ==> Caveats
 Thank you for installing the Lightbend Cloudstate CLI!
+
+To see help and a list of available commands type:
+  $ csctl help
 
 You can sign into your Cloudstate account using:
   $ csctl auth login
@@ -65,14 +68,14 @@ Bash completion has been installed to:
 zsh completions have been installed to:
   /usr/local/share/zsh/site-functions
 ==> Summary
-🍺  /usr/local/Cellar/csctl/0.0.6: 5 files, 14.6MB, built in 3 seconds
+🍺  /usr/local/Cellar/csctl/0.0.7: 5 files, 14.6MB, built in 3 seconds
 ```
 
 Uninstall the formula:
 
 ```sh
 $ brew uninstall csctl
-Uninstalling /usr/local/Cellar/csctl/0.0.6... (5 files, 14.6MB)
+Uninstalling /usr/local/Cellar/csctl/0.0.7... (5 files, 14.6MB)
 ```
 
 ## Installation
