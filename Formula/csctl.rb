@@ -49,6 +49,9 @@ class Csctl < Formula
     <<~EOS
       Thank you for installing the Lightbend Cloudstate CLI!
 
+      To see help and a list of available commands type:
+        $ csctl help
+
       You can sign into your Cloudstate account using:
         $ csctl auth login
 
