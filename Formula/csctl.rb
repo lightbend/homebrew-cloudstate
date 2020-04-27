@@ -10,9 +10,9 @@ class Csctl < Formula
     sha256 "5a5d0328093cbf2a624d8f96ea92517f86d69f5d34aafd2d6a35606965031f18"
   end
 
-  option "without-completion", "Do not install shell completion"
-
   bottle :unneeded
+
+  option "without-completion", "Do not install shell completion"
 
   depends_on OS.linux? ? :linux : :macos
 
